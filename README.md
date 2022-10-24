@@ -1,21 +1,40 @@
-# Frontend Mentor - Tip calculator app
+## Visão Geral
 
-![Design preview for the Tip calculator app coding challenge](./design/desktop-preview.jpg)
+### Projeto de uma aplicação que calcula a gorjeta para o usuário de forma automática, apenas inserindo a valor da conta e escolhendo o quanto em porcentagem o usuário deseja dar de gorjeta. Nesta aplicação também é possivel dividir o valor da conta e da gorjeta com quqntas pessoas quiser, que o app já faz o calculo que cada pessoa irá pagar.  
+#
 
-## Welcome! 👋
+![](./Assets/design/desktop-preview.jpg)
 
-Thanks for checking out this front-end coding challenge.
+#
+## Construido com:
+- HTML
+- CSS
+- JavaScript
 
-## The challenge
+## Funcionalidades
+- Calculadora de gorjetas.
 
-The challenge is to build out this tip calculator app and get it looking as close to the design as possible.
+## O que eu aprendi:
+- Manipulação do DOM com:
+```js
+  document.querySelector('.main-container')
+  document.querySelectorAll('.btn')
+  document.getElementById('submit')
+```
+- laços de repetição
+```js
+  rates.forEach(rate => {})
+```
+- Eventos
+```js
+  submitButton.addEventListener('click', () => {})
+```
+- Boas práticas com JavaScript
 
-The app is able to:
+## Link
 
-- View the optimal layout for the app depending on their device's screen size
-- See hover states for all interactive elements on the page
-- Calculate the correct tip and total cost of the bill per person
+Veja o projeto aqui: 
 
+## Autor
 
-I love receiving feedback! I am always looking to improve. So if you have anything you'd like to mention.
-# tip-calculator-app
+Hiderlan Santana: [Linkedin](https://www.linkedin.com/in/hiderlan-santana/)
